@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/customx.css">
+        
+    <title>Simulador de preços do Model X</title>
+</head>
+<body>
+    <header class="flexbox-container">
+    
+        <div class="flexbox-item flexbox-item-1">            
+            <a id="tesla-botao" href="index.html"><img id="logo" src="/imagens/logo-tesla.png" alt="logo-tesla"></a>    
+        </div>            
+
+        <div class="flexbox-item flexbox-item-2">            
+            <ol class="lista">
+                <a id="models" href="/html/index.html"><li> MODEL S </li></a>                
+                <a id="model3" href="/html/model3.html"><li> MODEL 3 </li></a>
+                <a id="modelx" href="/html/modelx.html"><li> MODEL X </li></a>
+                <a id="modely" href="/html/modely.html"><li> MODEL Y </li></a>                                     
+            </ol>
+        </div>
+        
+    </header>          
+        <div class="flexbox-container-2">
+            <div class="flexbox-item-2pt flexbox-item-3">                    
+                <p>Motor Duplo Tração 4x4</p>
+                <input onclick="motor(1);" type="radio" name="opcao1" value="op1">Long Range (435527R$)
+                <br>
+                <p>Motor Triplo Tração 4x4</p>
+                <input onclick="motor(2);" type="radio" name="opcao1" value="op2">Plaid (592587R$)
+                     
+            </div>
+            
+            <div class="flexbox-item-2pt flexbox-item-4">
+                <p>Pintura</p>
+                <input onclick="pintura(1);" type="radio" name="opcao2" value="op2-1">Branco (0R$)
+                <br>            
+                <input onclick="pintura(2);" type="radio" name="opcao2" value="op2-2">Preto (7853R$)
+                <br>
+                <input onclick="pintura(3);" type="radio" name="opcao2" value="op2-3">Prata (7853R$)
+                <br>
+                <input onclick="pintura(4);" type="radio" name="opcao2" value="op2-3">Azul (7853R$)
+                <br>
+                <input onclick="pintura(5);" type="radio" name="opcao2" value="op2-3">Vermelho (13088R$)
+            </div>
+            
+            <div class="flexbox-item-2pt flexbox-item-5">
+                <p>Aro</p>
+                <input onclick="aro(1);" type="radio" name="opcao3" value="op3-1">Aro 20" (0R$)
+                <br>
+                <input onclick="aro(2);" type="radio" name="opcao3" value="op3-2">Aro 22" (28794R$)
+            </div>
+    
+            <div class="flexbox-item-2pt flexbox-item-6">
+                <p>Interior</p>
+                <input onclick="interior(1);" type="radio" name="opcao4" value="op4-1" >Preto (0R$)
+                <br>
+                <input onclick="interior(2);" type="radio" name="opcao4" value="op4-2">Preto e Branco (10470R$)
+                <br>
+                <input onclick="interior(3);" type="radio" name="opcao4" value="op4-3">Creme (10470R$)
+            </div>
+    
+            <div class="flexbox-item-2pt flexbox-item-7">
+                <p>Número de Assentos</p>
+                <input onclick="assentos(1);" type="radio" name="opcao4" value="op4-1" >5 (0R$)
+                <br>
+                <input onclick="assentos(2);"type="radio" name="opcao4" value="op4-2">6 (34029R$)
+                <br>
+                <input onclick="assentos(3);" type="radio" name="opcao4" value="op4-3">7 (18323R$)
+            </div>
+            
+            <div class="flexbox-item-2pt flexbox-item-8">
+                <p>Piloto automático aperfeiçoado</p>
+                <input onclick="paa(1);" type="radio" name="opcao5" value="op5-1">Não adicionar (0R$)
+                <br>
+                <input onclick="paa(2);" type="radio" name="opcao5" value="op5-1">Adicionar (52353R$)
+            </div>
+        </div>
+        <div class="flexbox-container-3">
+            <div class="flexbox-item-3pt flexbox-item-11">
+                <p id="autonomia">Autonomia: </p>                            
+            </div>
+            <div class="flexbox-item-3pt flexbox-item-12">
+                <p id="velocidade">Velocidade Máxima: </p>            
+            </div>
+            <div class="flexbox-item-3pt flexbox-item-13">
+                <p id="kmh">0-100 km/h: </p>
+            </div>
+            <div class="flexbox-item-3pt flexbox-item-14">
+                <p id="preco">Preço: </p>
+            </div>
+            <div class="flexbox-item-3pt flexbox-item-15">
+                <button id="simula" >Simular</button>
+            </div>
+        </div>
+    
+        <script src="/javascript/modelx.js"></script>
+    
+</body>
+</html>

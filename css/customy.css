@@ -1,0 +1,108 @@
+body {
+    background-image: url("/imagens/ceu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.flexbox-container {
+    display: flex;            
+    
+}
+
+.flexbox-item {
+    width: 200px;    
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    flex-grow: 0.5;
+}
+
+.flexbox-item-2 {
+    min-height: 400px;
+    flex-grow: 2;
+}
+
+#logo {
+    width: 30%;
+    margin-top: -10%;
+    margin-left: 5%;
+} 
+
+ol {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 1%;            
+}
+
+.lista li {
+    display: inline;    
+    padding: 25px;    
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;    
+}
+
+a:hover {
+    color: rgb(66, 66, 66);    
+}
+
+
+.flexbox-container-2 {
+    display: flex;           
+}
+
+.flexbox-item-2pt {
+    width: 2000px;
+    margin: 20px 20px 20px 20px;
+    border: 1px ridge black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 180px;       
+    margin-top: -250px;     
+}
+
+.flexbox-item-3, .flexbox-item-4, .flexbox-item-5, .flexbox-item-6, .flexbox-item-7, .flexbox-item-8, .flexbox-item-9 {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+
+.flexbox-container-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-item-3pt {
+    width: 300px;
+    margin: 20px;    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 10px;           
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+
+button {
+    background-color: rgb(32, 29, 29);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border: none;
+    border-radius: 22px;
+    font-size: 20px;    
+}
+
+button:hover {
+    background-color: black;
+}
