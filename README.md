@@ -6,4 +6,4 @@
 
 **O site usou como base o site original da Tesla, mas todas as informações foram traduzidas de Inglês para Português.**
 
-**A conversão de Dólar para Real é feita em tempo real, através da API **
+**A conversão de Dólar para Real é feita em tempo real, através da AwesomeAPI**
